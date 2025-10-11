@@ -1,0 +1,22 @@
+[project]
+name = "classcode"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Umar Qureshi", email = "umarmoizpakistan@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chainlit>=2.8.2",
+    "ddgs>=9.6.0",
+    "openai-agents>=0.3.3",
+    "rich>=14.1.0",
+]
+
+[project.scripts]
+chatbot = "classcode:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
