@@ -1,0 +1,17 @@
+.dark {
+    --background: 0 0% 7% !important;
+    --card: 0% 0% 15% !important;
+    --primary: 79 100% 50% !important;
+    --ring: 79 100% 50% !important;
+}
+
+.light {
+    --background: 80 10% 85% !important;
+    --card: 0% 0% 15% !important;
+    --primary: 79 100% 50% !important;
+    --ring: 79 100% 50% !important;
+}
+
+#message-composer {
+    border: 2px dashed greenyellow;
+}
