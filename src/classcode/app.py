@@ -2,7 +2,7 @@
 # IMPORTS
 # ==================
 import chainlit as cl
-from agent import get_agent_response # <-- Import the agent runner
+from agent.agent import get_agent_response # <-- Import the agent runner
 
 # ==================
 # FRONTEND
